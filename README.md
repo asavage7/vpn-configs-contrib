@@ -1,4 +1,17 @@
-# OpenVPN providers config collection
+# THIS WILL NOT WORK FOR YOU
+
+Yes, I have added updated configs for HotspotShield. However...
+
+Whenever you add a new device and select a location, HotspotShield generates a custom .ovpn file just for you. This file is customized for you and you only, so using another person's config unfortunately does not work.
+
+If you do want to get it working, download your config from HotspotShield, fork the original repo, and add your file into the `openvpn/hotspotshield/` directory.
+
+
+<details>
+<summary>Original Readme</summary>
+<br>
+
+  # OpenVPN providers config collection
 
 This repository is a support-repo for: https://github.com/haugene/docker-transmission-openvpn
 It is an effort to separate the development and maintenance of that project and the
@@ -110,4 +123,4 @@ Then you can generate the markdown table by running:
 ```
 python3 generate_results_md_table.py data/result1234.json >> README.md
 ```
-Or something similar depending on the data file you want to use.
+Or something similar depending on the data file you want to use. </details>
